@@ -1,1 +1,23 @@
-import './bootstrap';
+
+import '../../public/vendor/modernizr/modernizr.min.js';
+import '../../public/vendor/jquery/jquery.min.js';
+import '../../public/vendor/jquery.appear/jquery.appear.min.js';
+import '../../public/vendor/jquery.easing/jquery.easing.min.js';
+import '../../public/vendor/jquery.cookie/jquery.cookie.min.js';
+import '../../public/vendor/popper/umd/popper.min.js';
+// import '../../public/vendor/bootstrap/js/bootstrap.min.js';
+import '../../public/vendor/common/common.min.js';
+import '../../public/vendor/jquery.validation/jquery.validate.min.js';
+import '../../public/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js';
+import '../../public/vendor/jquery.gmap/jquery.gmap.min.js';
+import '../../public/vendor/jquery.lazyload/jquery.lazyload.min.js';
+import '../../public/vendor/isotope/jquery.isotope.min.js';
+import '../../public/vendor/owl.carousel/owl.carousel.min.js';
+import '../../public/vendor/magnific-popup/jquery.magnific-popup.min.js';
+import '../../public/vendor/vide/jquery.vide.min.js';
+import '../../public/vendor/vivus/vivus.min.js';
+import '../../public/js/theme.js';
+import '../../public/vendor/rs-plugin/js/jquery.themepunch.tools.min.js';
+import '../../public/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js';
+import '../../public/js/custom.js';
+import '../../public/js/theme.init.js';
