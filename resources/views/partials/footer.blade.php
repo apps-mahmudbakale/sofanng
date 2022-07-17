@@ -50,7 +50,7 @@
         <div class="container py-2">
             <div class="row py-4">
                 <div class="col d-flex align-items-center justify-content-center">
-                    <p>© Copyright 2019. All Rights Reserved.</p>
+                    <p>© Copyright {{date('Y')}}. All Rights Reserved. Designed By Bnetworks IT Solutions</p>
                 </div>
             </div>
         </div>
