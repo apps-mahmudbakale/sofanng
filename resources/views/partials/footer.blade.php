@@ -22,13 +22,13 @@
                     <div class="col-md-6">
                         <ul class="list list-icons list-icons-lg">
                             <li class="mb-1"><i class="far fa-dot-circle text-color-primary"></i>
-                                <p class="m-0">234 Street Name, City Name</p>
+                                <p class="m-0">No. 10 Goba Close, off Monrovia Street, Wuse II, Abuja</p>
                             </li>
                             <li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i>
-                                <p class="m-0"><a href="tel:8001234567">(800) 123-4567</a></p>
+                                <p class="m-0"><a href="tel:+2348035861462">+234 803 586 1462</a></p>
                             </li>
                             <li class="mb-1"><i class="far fa-envelope text-color-primary"></i>
-                                <p class="m-0"><a href="mailto:mail@example.com">mail@example.com</a></p>
+                                <p class="m-0"><a href="mailto:info@sofanng.ng">info@sofanng.ng</a></p>
                             </li>
                         </ul>
                     </div>

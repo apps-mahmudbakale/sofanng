@@ -14,7 +14,7 @@
                                         <a href="tel:123-456-7890"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i> +234 803 586 1462, +234 803 585 4295</a>
                                     </li>
                                     <li class="nav-item nav-item-borders py-2 d-none d-md-inline-flex">
-                                        <a href="mailto:mail@domain.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>info@sofanng.ng,  sorghumfarmers17@gmail.com</a>
+                                        <a href="mailto:info@sofan.ng"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i>info@sofanng.ng,  sorghumfarmers17@gmail.com</a>
                                     </li>
                                 </ul>
                             </nav>
