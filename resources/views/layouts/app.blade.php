@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 
-		<title>Porto - Responsive HTML5 Template 7.6.0</title>	
+		<title>Sofan - @yield('title')</title>	
 
 		<meta name="keywords" content="HTML5 Template" />
 		<meta name="description" content="Porto - Responsive HTML5 Template">
@@ -32,7 +32,11 @@
 				<div class="bounce3"></div>
 			</div>
 		</div>
+        <div class="body">
+            @include('partials.header')
             @yield('content')
+            @include('partials.footer')
+        </div>
             <!-- Vendor -->
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
