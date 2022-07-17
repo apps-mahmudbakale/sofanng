@@ -48,7 +48,7 @@
                                             
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="elements.html">
+                                            <a class="dropdown-item dropdown-toggle" href="">
                                                 Who we are
                                             </a>
                                         </li>
