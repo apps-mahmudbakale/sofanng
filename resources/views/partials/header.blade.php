@@ -28,7 +28,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="/">
+                            <a href="{{route('welcome')}}">
                                 {{-- <img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" src="img/logo-corporate-5.png"> --}}
                                 <h2>Sofan</h2>
                             </a>
@@ -42,21 +42,21 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle active" href="">
+                                            <a class="dropdown-item dropdown-toggle active" href="{{route('welcome')}}">
                                                 Home
                                             </a>
                                             
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="">
+                                            <a class="dropdown-item dropdown-toggle" href="{{route('about')}}">
                                                 Who we are
                                             </a>
                                         </li>
-                                        <li class="dropdown">
+                                        {{-- <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 What we do
                                             </a>
-                                        </li>
+                                        </li> --}}
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#">
                                                 News & Events
