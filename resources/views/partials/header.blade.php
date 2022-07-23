@@ -42,13 +42,13 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle active" href="{{route('welcome')}}">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->routeIs('welcome')) ? 'active' : '' }}" href="{{route('welcome')}}">
                                                 Home
                                             </a>
                                             
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="{{route('about')}}">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->routeIs('about')) ? 'active' : '' }}" href="{{route('about')}}">
                                                 Who we are
                                             </a>
                                         </li>
@@ -58,12 +58,12 @@
                                             </a>
                                         </li> --}}
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->routeIs('news')) ? 'active' : '' }}" href="{{route('news')}}">
                                                 News & Events
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->routeIs('gallery')) ? 'active' : '' }}" href="{{route('gallery')}}">
                                                 Gallery
                                             </a>
                                         </li>

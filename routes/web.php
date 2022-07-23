@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,17 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Auth::routes();
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes();
+Route::get('/news-and-events', [PostController::class, 'blog'])->name('news');
+Route::get('news/{slug}', [PostController::class, 'ShowNews'])->name('show-news');
+
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::resource('/posts', App\Http\Controllers\PostController::class);
+    Route::resource('/users', App\Http\Controllers\UserController::class);
+});
+
